@@ -116,12 +116,25 @@
 		</p>
 	</div>
 	<div id="contexto">
-		<h2>azul</h2>
+		<h2>Formulario</h2>
+		<fieldset>
+			<label>Nombre</label>
+			<input type="text" placeholder="Escribe su nombre">
+			<label>Contraseña</label>
+			<input type="password">
+			<input type="submit" id="boton" value="Envíar">
+		</fieldset>
 	</div>
 	<div id="footer">
 		landing page
 	</div>
 	<style>
+		label,input,#boton{
+			font-size: 2em;
+		}
+		fieldset{
+			padding: 50px;
+		}
 		p{
 			font-size: 2em;
 			text-align: center;
