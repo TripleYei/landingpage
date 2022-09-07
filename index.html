@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Landing Page</title>
+	<meta charset="UTF-8">
 </head>
 <body>
 	<div id="top">
@@ -202,7 +203,10 @@
 			color:white;
 			text-align: center;
 		}
-		@media (max-width: 900px){
+		@media (min-width: 300px){
+			body{
+				margin:0;
+			}
 			header{
 				padding: 200px;
 				background-color: #1f8dd6;
@@ -217,7 +221,7 @@
 				text-align: center;
 			}
 			#contexto{
-			padding: 5px;
+			padding: 25px;
 			background-color: #1f8dd6;
 			color:white;
 			}
@@ -230,7 +234,8 @@
 
 			}
 			label,input,#boton{
-				font-size: 1.5em;
+				font-size: 3em;
+				padding: 25px;
 				text-align: center;
 			}
 		}
